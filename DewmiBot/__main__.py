@@ -64,13 +64,13 @@ from DewmiBot.modules.helper_funcs.readable_time import get_readable_time
 
 
 PM_START_TEXT = """
-Hey there!👋  My name is Rose ✨
+Hey there!👋  My name is IRON MAN ✨
 
 I can manage your  group with lots of useful features, feel free to add me to your group.
 
-✨ Pọwẹrẹɗ Ɓy : @SL_bot_zone
+✨ Pọwẹrẹɗ Ɓy : @SLNinjaTeam
 ✮───────────────✮
-🌟 𝙳𝚎𝚟𝚎𝚕𝚘𝚙𝚎𝚛 : @supunmabot
+🌟 𝙳𝚎𝚟𝚎𝚕𝚘𝚙𝚎𝚛 : @Dilasnalithmantha
 ✮───────────────✮
 """
 
@@ -92,12 +92,12 @@ STICKERS = "CAACAgUAAx0CS6YhoQAC02VhQUW7iB4ci3lcSXHtLVOjFzZlDQACUQMAAvPvEVY76k2Q
 BUTTONS = [
     [
         InlineKeyboardButton(
-            text="➕️ 𝐀𝐃𝐃 𝐌𝐄 𝐓𝐎 𝐘𝐎𝐔𝐑 𝐆𝐑𝐎𝐔𝐏 ➕️", url="http://t.me/szrosebot?startgroup=true"),
+            text="➕️ 𝐀𝐃𝐃 𝐌𝐄 𝐓𝐎 𝐘𝐎𝐔𝐑 𝐆𝐑𝐎𝐔𝐏 ➕️", url="http://t.me/snt_iron_man_ro_bot?startgroup=true"),
     ],
     [
-        InlineKeyboardButton(text="📢 Bot updates ", url=f"https://t.me/sl_bot_zone"),
+        InlineKeyboardButton(text="📢 Bot updates ", url=f"https://t.me/SLninjaTeamchannel"),
         InlineKeyboardButton(
-            text="Repo 📦", url=f"https://github.com/youtubeslgeekshow"
+            text="Repo 📦", url=f""
         ),
     ],
     [
@@ -111,11 +111,11 @@ BUTTONS = [
     ],
 ]
 
-TEXT = """👋 Hey there! My name is Rose bot ✨ - A powerful group management bot which can help you to manage your groups effectively as possible With   Advanced AI . 
+TEXT = """👋 Hey there! My name is IRON MAN ✨ - A powerful group management bot which can help you to manage your groups effectively as possible With   Advanced AI . 
 
 Click `menu` button for more information.
 
-Join my [news channel](https://t.me/SL_bot_zone) to get information on all the latest updates.  """
+Join my [bot channel](@SLNinjaTeamchannel) to get information on all the latest updates.  """
 
 MENU = [
     [
@@ -250,7 +250,7 @@ def tart(update: Update, context: CallbackContext):
             ),
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="Updates", url ="https://t.me/szroseupdates")]],
+                [[InlineKeyboardButton(text="Updates", url ="https://t.me/SLninjaTeamchannel")]],
             ),
         )
     
@@ -383,15 +383,15 @@ def DewmiBot_about_callback(update, context):
                 [
                     [
                         InlineKeyboardButton(
-                            text="Bᴜɢ'ꜱ🐞", url="t.me/slbotzone"
+                            text="Bᴜɢ'ꜱ🐞", url="https://t.me/SLNinjaTeam"
                         ),
                         InlineKeyboardButton(
-                            text="updates💁‍♀️", url="t.me/sl_bot_zone"
+                            text="updates💁‍♀️", url="https://t.me/SLninjaTeamchannel"
                         ),
                     ],
                     [
                         InlineKeyboardButton(
-                            text="Donate 🤕", url="http://t.me/szrosebot?start=donate"
+                            text="Donate 🤕", url="http://t.me/snt_iron_man_ro_bot?start=donate"
                         ),
                         InlineKeyboardButton(
                             text="Inline search 🔎", switch_inline_query_current_chat=""
@@ -497,7 +497,7 @@ def DewmiBot_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Dewmibot", url="https://t.me/sltechzoneofficial"),
+                    InlineKeyboardButton(text="Whitesnake", url="https://t.me/sltechzo"),
                     InlineKeyboardButton(text="Aniki victor bot", url="https://t.me/ankivectorUpdates"),
                  ],
                  [
@@ -506,7 +506,7 @@ def DewmiBot_about_callback(update, context):
                  ],
                  [
                     InlineKeyboardButton(text="Daisyx bot", url="https://github.com/TeamDaisyX/Daisy-OLD"),
-                    InlineKeyboardButton(text="innexia bot", url="https://github.com/DarkCybers/innexia/blob/Sammy/innexiaBot"),
+                    InlineKeyboardButton(text="", url="https://github.com/DarkCybers/innexia/blob/Sammy/innexiaBot"),
                  ],   
                  [
                     InlineKeyboardButton(text="Back", callback_data="aboutmanu_howto"),
