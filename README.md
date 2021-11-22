@@ -21,7 +21,7 @@
     
 ## Depoly To Heroku  
     
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/parkseojoon2005/Aurora)  
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?button-url=https://github.com/hirunaofficial/Telegram-Group-Management-Bot-DewmiBot&template=https://github.com/hirunaofficial/Telegram-Group-Management-Bot-DewmiBot)  
 
 
   
