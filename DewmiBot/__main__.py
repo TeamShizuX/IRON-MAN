@@ -66,13 +66,13 @@ from DewmiBot.modules.system_stats import bot_sys_stats
 
 
 PM_START_TEXT = """
-Hey there!👋  My name is Rose ✨
+Hey there!👋  My name is IRON MAN✨
 
 I can manage your  group with lots of useful features, feel free to add me to your group.
 
-✨ Pọwẹrẹɗ Ɓy : @SL_bot_zone
+✨ Pọwẹrẹɗ Ɓy : @SLNinjaTeam
 ✮───────────────✮
-🌟 𝙳𝚎𝚟𝚎𝚕𝚘𝚙𝚎𝚛 : @supunmabot
+🌟 𝙳𝚎𝚟𝚎𝚕𝚘𝚙𝚎𝚛 : @Dilasnalithmantha
 ✮───────────────✮
 """
 
@@ -94,7 +94,7 @@ STICKERS = "CAACAgUAAx0CS6YhoQAC02VhQUW7iB4ci3lcSXHtLVOjFzZlDQACUQMAAvPvEVY76k2Q
 BUTTONS = [
     [
         InlineKeyboardButton(
-            text="➕️ 𝐀𝐃𝐃 𝐌𝐄 𝐓𝐎 𝐘𝐎𝐔𝐑 𝐆𝐑𝐎𝐔𝐏 ➕️", url="http://t.me/szrosebot?startgroup=true"),
+            text="➕️ 𝐀𝐃𝐃 𝐌𝐄 𝐓𝐎 𝐘𝐎𝐔𝐑 𝐆𝐑𝐎𝐔𝐏 ➕️", url="http://t.me/snt_iron_man_ro_bot?startgroup=true"),
     ],
     [
         InlineKeyboardButton(text="📢 Bot updates ", url=f"https://t.me/sl_bot_zone"),
